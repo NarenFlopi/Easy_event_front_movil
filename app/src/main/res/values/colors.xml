@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="yellow">#FFC107</color>
+
+
+
+    <color name="my_primary">#5E35B1</color>
+    <color name="my_secondary">#673AB7</color>
+
+    <color name="morado_osc">#5922CA</color>
+    <color name="morado_nor">#5B2FB1</color>
+    <color name="morado_cla">#7048BF</color>
+    <color name="red_claro">#C64F4F</color>
+    <color name="morado_claro">#824FDC</color>
+    <color name="transparent">#00FF0000</color>
+
+    <color name="blanco">#FFFFFF</color>
+
+    <color name="colorActivo">#FFF1C5</color> <!-- Color para estado Activo -->
+    <color name="colorInactivo">#FFD1D1</color> <!-- Color para estado Inactivo -->
+    <color name="colorFinalizado">#C8FCCB</color>
+    <color name="colorSolicitud">#D3FAFF</color><!-- Color para estado Finalizado -->
+
+</resources>
+

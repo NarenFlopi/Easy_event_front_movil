@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Base.Theme.Easy_Event_App"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".AceptarEntregaEmpre"
+            android:exported="false" />
+        <activity
+            android:name=".EntregarAlquilerUser"
+            android:exported="false" />
+        <activity
+            android:name=".AceptarAlquiler"
+            android:exported="false" />
+        <activity
+            android:name=".EntregaAlquiler"
+            android:exported="false" />
+        <activity
+            android:name=".AddProducto"
+            android:exported="false" />
+        <activity
+            android:name=".SolicitudAlquileres"
+            android:exported="false" />
+        <activity
+            android:name=".InfoProductoEmpresario"
+            android:exported="false" />
+        <activity
+            android:name=".InfoAlquiler"
+            android:exported="false" />
+        <activity
+            android:name=".EntregadosAlquileres"
+            android:exported="false" />
+        <activity
+            android:name=".EditUserEmpresario"
+            android:exported="false" />
+        <activity
+            android:name=".EditProducto"
+            android:exported="false" />
+        <activity
+            android:name=".AlquilerModificar"
+            android:exported="false" />
+        <activity
+            android:name=".InfoAlquilerSolicitado"
+            android:exported="false" />
+        <activity
+            android:name=".Notificacion"
+            android:exported="false" />
+        <activity
+            android:name=".Pedir"
+            android:exported="false" />
+        <activity
+            android:name=".Favoritos"
+            android:exported="false" />
+        <activity
+            android:name=".InfoProducto"
+            android:exported="false" />
+        <activity
+            android:name=".Categorias"
+            android:exported="false" />
+        <activity
+            android:name=".Productos"
+            android:exported="false" />
+        <activity
+            android:name=".EditUser"
+            android:exported="false" />
+        <activity
+            android:name=".FirstFragment"
+            android:exported="false" />
+        <activity
+            android:name=".HomeEmpresario"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterEmpresa"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterEmpresario"
+            android:exported="false" />
+        <activity
+            android:name=".PreRegister"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

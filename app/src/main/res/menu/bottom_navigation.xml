@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeEmpresario"
+        android:icon="@drawable/inicio"
+        android:title="Inicio"/>
+    <item
+        android:id="@+id/secondFragament"
+        android:icon="@drawable/addproducto"
+        android:title="Productos"/>
+    <item
+        android:id="@+id/thirdFragament"
+        android:icon="@drawable/pedido"
+        android:title="Alquileres"/>
+    <item
+        android:id="@+id/fourthFragament"
+        android:icon="@drawable/engranaje"
+        android:title="Configuración"/>
+
+</menu>

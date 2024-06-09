@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EntregarAlquilerUser">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                app:cardCornerRadius="22dp"
+                android:layout_marginHorizontal="15dp"
+                android:elevation="60dp"
+                android:layout_marginTop="120dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="15dp"
+                    android:layout_marginVertical="15dp"
+                    android:orientation="vertical">
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="250dp"
+                            android:layout_height="40dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:text="Fecha:"
+                                android:textSize="20dp"
+                                android:textStyle="bold">
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/txtFecha"
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:text="..."
+                                android:textSize="20dp"
+                                android:layout_marginLeft="10dp">
+                            </TextView>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="250dp"
+                            android:layout_height="40dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:text="Metodo de pago:"
+                                android:textSize="20dp"
+                                android:textStyle="bold">
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/txtMetodo"
+                                android:layout_width="250dp"
+                                android:layout_height="40dp"
+                                android:text="..."
+                                android:textSize="20dp"
+                                android:layout_marginLeft="10dp">
+                            </TextView>
+
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:layout_width="250dp"
+                            android:layout_height="40dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:text="Entrega:"
+                                android:textSize="20dp"
+                                android:textStyle="bold">
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/txtEntrega"
+                                android:layout_width="250dp"
+                                android:layout_height="40dp"
+                                android:text="..."
+                                android:textSize="20dp"
+                                android:layout_marginLeft="10dp">
+                            </TextView>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="250dp"
+                            android:layout_height="40dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:text="Telefono:"
+                                android:textSize="20dp"
+                                android:textStyle="bold">
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/txtTelefonoEmpresa"
+                                android:layout_width="250dp"
+                                android:layout_height="40dp"
+                                android:text="..."
+                                android:textSize="20dp"
+                                android:layout_marginLeft="10dp">
+                            </TextView>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:text="Dirección:"
+                                android:textSize="20dp"
+                                android:textStyle="bold">
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/txtDireccionEmpresa"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="..."
+                                android:textSize="20dp"
+                                android:layout_marginLeft="10dp">
+                            </TextView>
+
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal"
+                        android:layout_gravity="right">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:text="Subtotal:"
+                            android:textSize="20dp"
+                            android:textStyle="bold">
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/txtPrecio"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:text="..."
+                            android:textSize="20dp"
+                            android:layout_marginLeft="10dp">
+
+                        </TextView>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:id="@+id/linearBotones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnAceptar"
+                    android:layout_width="150dp"
+                    android:text="ENTREGAR"
+                    android:layout_height="wrap_content">
+
+                </Button>
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/listaProductos"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/banner_redondo">
+
+        <ImageButton
+            android:id="@+id/volverButton"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="13dp"
+            android:background="@drawable/back_icon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/firstFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:gravity="left"
+            android:text="Alquiler"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
